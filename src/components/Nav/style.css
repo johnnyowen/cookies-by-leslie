@@ -1,0 +1,24 @@
+/* styling the letters of the nav links */
+nav {
+  font-size: 2.25rem;
+  letter-spacing: 0.2rem;
+}
+/* styling links themselves */
+nav li {
+  text-decoration: none;
+  color: var(--yellow);
+  /* opacity: 0.6; */
+  font-family: "Quicksand", sans-serif;
+  cursor: pointer;
+  margin: 10px;
+}
+/* style on hover */
+nav li:hover {
+  color: var(--white);
+  opacity: 1;
+}
+/* style when active, green showed up best on header background on all sizes */
+.active {
+  color: var(--blue);
+  opacity: 1;
+}

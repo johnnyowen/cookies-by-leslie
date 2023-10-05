@@ -1,13 +1,50 @@
-body {
+/* global styling */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* root colors */
+:root {
+  --pink: #ff8dff;
+  --purple: #b779ff;
+  --yellow: #f3f18f;
+  --green: #96ff96;
+  --blue: #a3b1ff;
+  --darkblue: #2929dd;
+  --neon: #ffee01;
+  --white: #fff;
+  --black: #000;
+}
+/* sizing the page */
+html,
+body {
+  min-height: 100%;
+}
+/* styles for everything on out page, like a global style again */
+.wrapper {
+  background-color: var(--pink);
+  color: var(--darkblue);
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+/* sizing for center of page displaying the components */
+main {
+  min-height: calc(100vh - 250px);
+}
+/* removing predetermined styles from links */
+a {
+  text-decoration: none;
+}
+/* removing predetermined styles from list items */
+li {
+  list-style: none;
+}
+/* font for headers */
+h1,
+h2,
+h3 {
+  font-family: "Sacramento", cursive;
 }

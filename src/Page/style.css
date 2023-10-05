@@ -1,0 +1,14 @@
+/* styles the title of component page we are switching */
+main h2 {
+  font-size: 3rem;
+}
+/* styles the headers on top of profencey columns */
+.pro {
+  font-size: 2.5rem;
+} 
+/* styling for Resume */
+.skills .list-group-item {
+  background-color: transparent;
+  color: var(--light);
+  border-color: var(--dark);
+}
