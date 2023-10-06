@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cookies-by-leslie/static/css/main.96fccc57.css",
-    "main.js": "/cookies-by-leslie/static/js/main.12973ec3.js",
+    "main.css": "/cookies-by-leslie/static/css/main.42cf43c6.css",
+    "main.js": "/cookies-by-leslie/static/js/main.9b394482.js",
     "static/media/cars-beep-beep.jpg": "/cookies-by-leslie/static/media/cars-beep-beep.02e124f8abeda5bc800f.jpg",
     "static/media/apples-from-the-tree.jpg": "/cookies-by-leslie/static/media/apples-from-the-tree.da8a7f485d8bdb07c47e.jpg",
     "static/media/fourth-of-july.jpg": "/cookies-by-leslie/static/media/fourth-of-july.ee1eaed4a9c3a552af3c.jpg",
@@ -35,11 +35,11 @@
     "static/media/tie-dye-bunnies.jpg": "/cookies-by-leslie/static/media/tie-dye-bunnies.0489f93362b2e90d0c43.jpg",
     "static/media/i-love-you-dad.jpg": "/cookies-by-leslie/static/media/i-love-you-dad.5d28d575dfbe20e027a2.jpg",
     "index.html": "/cookies-by-leslie/index.html",
-    "main.96fccc57.css.map": "/cookies-by-leslie/static/css/main.96fccc57.css.map",
-    "main.12973ec3.js.map": "/cookies-by-leslie/static/js/main.12973ec3.js.map"
+    "main.42cf43c6.css.map": "/cookies-by-leslie/static/css/main.42cf43c6.css.map",
+    "main.9b394482.js.map": "/cookies-by-leslie/static/js/main.9b394482.js.map"
   },
   "entrypoints": [
-    "static/css/main.96fccc57.css",
-    "static/js/main.12973ec3.js"
+    "static/css/main.42cf43c6.css",
+    "static/js/main.9b394482.js"
   ]
 }
