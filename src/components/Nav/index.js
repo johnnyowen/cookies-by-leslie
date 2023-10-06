@@ -3,7 +3,7 @@ import "./style.css";
 
 const Nav = ({ pages, currentPage, setCurrentPage }) => {
   return (
-    <nav className="d-flex justify-content-between align-items-center">
+    <nav>
       {/* maps the links and gives them proper functions, coming from App.js pages array */}
       {pages.map((page) => (
         <li

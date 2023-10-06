@@ -5,7 +5,7 @@ import "./style.css";
 const Cookie = ({ project }) => {
   return (
     <div className="col">
-      <div className="card">
+      <div className="card h-100">
         <img
           src={require(`../../assets/gallery/${project.name}.jpg`)}
           className="card-img"

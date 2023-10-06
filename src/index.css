@@ -7,12 +7,12 @@
 /* root colors */
 :root {
   --pink: #ff8dff;
-  --purple: #b779ff;
-  --yellow: #f3f18f;
-  --green: #96ff96;
-  --blue: #a3b1ff;
+  --purple: #a55cf8;
+  --yellow: #f8f544;
+  --green: #5dff5d;
+  --blue: #cdd4ff;
   --darkblue: #2929dd;
-  --neon: #ffee01;
+  --neon: #01ffea;
   --white: #fff;
   --black: #000;
 }
@@ -32,7 +32,7 @@ body {
 }
 /* sizing for center of page displaying the components */
 main {
-  min-height: calc(100vh - 250px);
+  min-height: 100vh;
 }
 /* removing predetermined styles from links */
 a {
@@ -48,3 +48,5 @@ h2,
 h3 {
   font-family: "Sacramento", cursive;
 }
+
+

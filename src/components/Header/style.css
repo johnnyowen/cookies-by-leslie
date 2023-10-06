@@ -1,6 +1,9 @@
 header {
-  height: 200px;
+  /* height: 200px; */
   position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 header img {
@@ -15,21 +18,52 @@ header img {
 }
 
 header h1 {
-  letter-spacing: 0.2rem;
   font-size: 5rem;
   position: relative;
-  /* color: var(--blue);
-    padding: 0px 10px 5px 15px;
-    border: 3px;
-    border-style: solid;
-    border-radius: 20px;
-    box-shadow: inset 0px 0px 8px rgba(255, 255, 128, 1),
-      0px 0px 15px rgba(255, 255, 128, 1);
-    background-color: rgba(0, 0, 0, 0.45); */
+  color: var(--neon);
+  padding: 0px 0px 7px 0px;
+  border: 3px;
+  border-style: solid;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 8px rgba(1, 255, 234, 1),
+    0px 0px 15px rgba(1, 255, 234, 1);
+  background-color: rgba(112, 0, 146, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
 }
 
 header Nav {
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header Nav li {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+}
+
+/* tablet screen changes */
+@media screen and (min-width: 768px) {
+  header Nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .headerBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* large screen changes */
+@media screen and (min-width: 992px) {
+
 }
 
